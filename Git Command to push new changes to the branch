@@ -1,0 +1,102 @@
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (de                                                                                                                                                                                               velop)
+$ git branch
+* develop
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (develop)
+$ git checkout project_shop
+Branch project_shop set up to track remote branch project_shop from origin.
+Switched to a new branch 'project_shop'
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (project_shop)
+$ git checkout bugfix/SD-11177_fixed_defects_NC
+error: pathspec 'bugfix/SD-11177_fixed_defects_NC' did not match any file(s) known to git.
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (project_shop)
+$ git pull origin
+From https://stash.ext.springdigital-devisland.com.au/scm/sd/onlinestyleguide
+ * [new branch]      bugfix/SD-11177_fixed_defects_NC -> origin/bugfix/SD-11177_fixed_defects_NC
+Already up-to-date.
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (project_shop)
+$ git checkout bugfix/SD-11177_fixed_defects_NC
+Branch bugfix/SD-11177_fixed_defects_NC set up to track remote branch bugfix/SD-11177_fixed_defects_NC from origin.
+Switched to a new branch 'bugfix/SD-11177_fixed_defects_NC'
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (bugfix/SD-11177_fixed_defects_NC)
+$ git branch
+* bugfix/SD-11177_fixed_defects_NC
+  develop
+  project_shop
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (bugfix/SD-11177_fixed_defects_NC)
+$ git checkout project_shop
+Switched to branch 'project_shop'
+Your branch is up-to-date with 'origin/project_shop'.
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (project_shop)
+$ git pull origin
+Already up-to-date.
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (project_shop)
+$ git checkout bugfix/SD-11177_fixed_defects_NC
+Switched to branch 'bugfix/SD-11177_fixed_defects_NC'
+Your branch is up-to-date with 'origin/bugfix/SD-11177_fixed_defects_NC'.
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (bugfix/SD-11177_fixed_defects_NC)
+$ git merge project_shop
+Already up-to-date.
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (bugfix/SD-11177_fixed_defects_NC)
+$ git status
+On branch bugfix/SD-11177_fixed_defects_NC
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (bugfix/SD-11177_fixed_defects_NC)
+$ git status
+On branch bugfix/SD-11177_fixed_defects_NC
+Your branch is up-to-date with 'origin/bugfix/SD-11177_fixed_defects_NC'.
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (bugfix/SD-11177_fixed_defects_NC)
+$ git diff framework/widgets/addressDetails/hbs/addressDetailsStateOneView.hbs
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (bugfix/SD-11177_fixed_defects_NC)
+$ gulp
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (bugfix/SD-11177_fixed_defects_NC)
+$ git checkout framework/widgets/addressDetails/hbs/addressDetailsStateOneView.hbs  if we want to remove change 
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (bugfix/SD-11177_fixed_defects_NC)
+$ git status
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (bugfix/SD-11177_fixed_defects_NC)
+$ npm install
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (bugfix/SD-11177_fixed_defects_NC)
+$ git status
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (bugfix/SD-11177_fixed_defects_NC)
+$ git diff framework/widgets/addressDetails/javascript/addressDetailsWidget.js
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (bugfix/SD-11177_fixed_defects_NC)
+$ git add framework/widgets/addressDetails/javascript/addressDetailsWidget.js
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (bugfix/SD-11177_fixed_defects_NC)
+$ git status
+
+
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (bugfix/SD-11177_fixed_defects_NC)
+$ git commit -m "[SD-11177] changes to revert"
+
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (bugfix/SD-11177_fixed_defects_NC)
+$ git push
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (bugfix/SD-11177_fixed_defects_NC)
+$ git status
+
+
+jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (bugfix/SD-11177_fixed_defects_NC)
+$
