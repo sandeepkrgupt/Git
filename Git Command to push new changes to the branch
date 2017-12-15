@@ -1,4 +1,9 @@
+DIFFRENCE B/W REPOSITORY AND BRANCH
 
+ A repository is your whole project (e.g. your folders, files) that you clone on your computer. 
+ A branch is a version of your repository. A repository contains several branches
+
+----------------------------------------------------------------------------------------------
 jeevanb@jeevanb02 MINGW64 /c/Users/jeevanb/Desktop/FixedOsg/onlinestyleguide (de                                                                                                                                                                                               velop)
 $ git branch
 * develop
