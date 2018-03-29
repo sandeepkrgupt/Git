@@ -1,3 +1,15 @@
+Git
+configuring My GitBash to My GitHub -
+
+$ git config --global user.name "sandeepkrgupt"
+$ git config --global user.email guptasandeep188@gmail.com
+$ git config core.editorC:\ProgramData\Microsoft\Windows\Start Menu\Programs\Sublime Text 3.exe (for editor configuration)
+$ git config --list (see all what you did/configured yet)
+$ git config user.name (will show user name if configured successfully)
+$ git checkout -b branch_name 
+-----------------------------------------------------------------------------------------
+NOW YOU CAN USE BELOW COMMANDS FOR CHECKOUT TO SPECIFIC REPO, ADD CHANGES, PUSH ETC..
+
 sandegup@SANDEGUP01 MINGW64 /c/OPTUS_NEW/OptusNewPull/onlinestyleguide (develop)
 $ git checkout project_shop
 Branch project_shop set up to track remote branch project_shop from origin.
