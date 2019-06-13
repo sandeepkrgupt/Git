@@ -1,0 +1,87 @@
+Git - 
+Git is a distributed version control system.In VCS we have a central 
+or remote repo and a local repo. So for any inturruptions like
+no internet connection, we still can work with our local repo. 
+It means every developer has a backup of entire repo on their local system
+that's why it's called distributed system.
+-------------------------------
+First Time SetUp -
+dwld git from it's site 
+> git --version (to see version means it installed successfully)
+>git config --global user.name "Sandeep Gupta"
+>git config --global user.email "Sandeep.Gupta@amdocs.com"
+-------------------------------
+TRACK LOCAL REPO -
+>ls (list all folders or dir)
+>cd Dir_name
+>ls -la (see all files)
+>git init (to initialise and track your files)
+-----------------------------
+.gitignore File -
+If we want any file not to track by git we can create a .gitignore file and put file name inside it.
+-------------------------------
+GIT COMMIT STAGES -
+  1. working Dir - All untracked and modified files will be here.
+  2. Staging Area - Here we will organise what we want to be commited to git repo.
+  ---------------------------
+  ADDING MODIFIED FILES-
+  >git add file_name or
+  >git add -A (to add all modified files)
+  -----------------------
+  To Remove -
+  >git reset file_name
+  ----------------------
+  OUR COMMIT -
+  >git commit -m "comments"
+  >git log (to see current commit which you made)
+  -------------------------
+  TRACKING REMOTE PROJECT-
+ >git clone url .   (like - https://github.com/sandeepkrgupt/GitHub/)
+ >ls la (seeing all files)
+Note - dott . used to clone all files
+-----------------------------
+VIEWING INFO. ABOUT THE REMOTE REPO.
+>git remote -v (to view info)
+>git branch -a (to see all branches)
+>git diff (to see your changes which you added to any file)
+>git add -A 
+>git commit -m "comments"
+>git pull origin master 
+>git push origin master
+Note - 
+Pull - Before going to push your changes, it is better to take all new or updated 
+files from remote to your local by using pull command.
+
+Push - it is the last command which push your file to remote repo.
+----------------------
+CREATING A BRANCH -
+>git branch Branch_Name
+>git branch (to see all branch including urs)
+---------------------
+MOVING FROM CURRENT WORKING BRANCH TO ANOTHER-
+>gir checkout branch_name
+---------------------
+PUSING OUR NEW BRANCH TO GIT-
+>git push -u origin branch_name
+where - origin is the name of remote repo.
+and -u is used to associate two branches.
+--------------------
+COMING TO MASTER BRANCH -
+>git checkout master
+>git pull master
+>git merge branch_name (to merge your branch to master branch)
+
+------------------------Command Overview------------------------
+>git branch Branch_name
+>git branch
+>git checkout Branch_name
+>git status
+>git add -A
+>git diff File_name or git diff -A
+>git commit -m "comments"
+>git push -u origin branch_name
+>git checkout master
+>git pull origin master
+>git merge Branch_name
+>git push origin master
+
