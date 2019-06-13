@@ -1,1 +1,3 @@
 This is a demo file for testing git command line from local to remote server.
+we will test all git command sequentially from git bash and finally we will merge this branch or folder
+to master branch and push to central git repo.
