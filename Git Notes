@@ -71,7 +71,30 @@ COMING TO MASTER BRANCH -
 >git pull master
 >git merge branch_name (to merge your branch to master branch)
 
-------------------------Command Overview------------------------
+-----------more step by step working on branches ----------------
+>git branch Branch_Name
+>git checkout Branch_Name
+>git branch
+>git add File_Name.ext
+>git commit -m "comment" (Every Time you make changes in your file you need to add and commit that file)
+>git merge Branch_Name (it will ask you to add any msgs just do :wq and hit enter)
+>git push --set-upstream origin Branch_Name
+To Delete :-
+>git checkout master
+>git branch -d Branch_Name
+
+------------------ Creating Repo from Git Bash --------------
+First create your Repo/Dir (e.g - E:\git-local) in your local and add or create a new file(xyz.txt) with some data, 
+because empty Dir cannot be pushed to remote server.
+E:\git-local>echo "# test" >> README.md
+E:\git-local>git init
+E:\git-local>git add README.md
+E:\git-local>git add xyz.txt
+E:\git-local>git commit -m "first commit"
+E:\git-local>git remote add origin https://github.com/sandeepkrgupt/your-new-git-repo-name.git
+E:\git-local>git push -u origin master
+
+----------------Hot Commands (frequently Used Commands)------------------
 >git branch Branch_name
 >git branch
 >git checkout Branch_name
@@ -84,4 +107,3 @@ COMING TO MASTER BRANCH -
 >git pull origin master
 >git merge Branch_name
 >git push origin master
-
