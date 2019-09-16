@@ -1,0 +1,31 @@
+git stash 
+
+will stash/ignore your local  files which need not to be committed
+---------------------------------------------------------------------------------------------------
+git fetch
+
+used to get new branches and their files on local.
+--------------------------------------------------------------------------------------------------
+Git remote -v
+
+Will show the remote server URL where you are currently working
+
+C:\work\dpm\src\RI.OnlineGiving.DonationManagement\RI.OnlineGiving.DonationManagement.WebUI\Client>git remote -v
+origin  ssh://git@bitbucketprd.rotaryintl.org:7999/og/dpm.git (fetch)
+origin  ssh://git@bitbucketprd.rotaryintl.org:7999/og/dpm.git (push)
+
+--------------------------------------------------------------------------------------------------
+Git fetch origin
+---------------------------------------------------------------------------------------------------
+Git checkout master
+--------------------------------------------------------------------------------------------------
+Git checkout -b branch_name
+-------------------------------------------------------------------------------------------------
+Git push -u origin
+
+-------------------------------------------------------------------------------------------------
+Git reset --hard HEAD
+
+'git reset --hard HEAD' is used to revert to a previous commit 
+
+Note :- First, it's always worth noting that git reset --hard is a potentially dangerous command, since it throws away all your uncommitted changes. For safety, you should always check that the output of git status is clean (that is, empty) before using it.
